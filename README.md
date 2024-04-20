@@ -32,16 +32,16 @@ The Employee Attendance Record System is designed to track and store employees' 
 ## How to Run the Project
 
 1. Download the source code and extract the zip file.
-2. Set up a local web server capable of running PHP scripts on your computer (e.g., XAMPP). Copy or extract the source code to the `htdocs` folder located in the XAMPP directory.
+2. Set up a local web server capable of running PHP scripts on your computer (I use XAMPP). Copy or extract the source code to the `htdocs` folder located in the XAMPP directory.
 3. Open your database web server and create a new database named `attendance`.
 4. Import the `attendance.sql` file located in the database folder of the extracted source code.
 5. Ensure the source code is accessible by your web server.
-6. Open a web browser (e.g., Chrome, Safari) and browse the application at `http://localhost/employee-attendance-record-system`.
+6. Open a web browser (Chrome) and browse the application at `http://localhost/EARS/`.
 
 ### Admin Default Access
 
 - **Username**: admin
 - **Password**: admin123
 
-To access the administrator side of the application, add `/admin/index.php` to your URL:
+To access the administrator side of the application, add `/admin/index.php` to your URL: http://localhost/EARS/admin/index.php
 
