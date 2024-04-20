@@ -1,47 +1,46 @@
 # Employee Attendance Record System
 
-The Employee Attendance Record System is a simple project developed using PHP, HTML5, CSS, and JavaScript (jQuery/Ajax). This project was developed as part of my practicum to demonstrate my skills in web development.
+The Employee Attendance Record System is a web application created using PHP, HTML5, CSS, and JavaScript (jQuery/Ajax). This project was undertaken as part of my practicum to showcase my web development skills.
 
-## About the Project
+## Project Overview
 
-The Employee Attendance Record System is designed to track and store employees' time logs for a specific company. The system has two user interfaces:
+The Employee Attendance Record System is a tool designed to manage and archive employees' daily attendance for a particular company. The system offers two main interfaces:
 
-### Admin Side
+### Admin Interface
 
-- **Login Page**: Allows admin users to log in using their credentials to access the administrative side of the system, enhancing the security of the data.
+- **Login**: Admins can securely log in with their credentials to access the system.
   
-- **Home Page**: Redirects users to this page after successful login.
+- **Home**: After a successful login, the admin is redirected to the dashboard.
   
-- **Employee Page**: Lists all employees and their details, with functionalities to add, update, and delete employee information.
+- **Employee Management**: This page displays a list of all employees with options to add, edit, or remove their details.
   
-- **Attendance Page**: Lists the time logs of the employees. The administrator can delete an employee if necessary.
+- **Attendance Log**: Admins can view and manage the time logs of the employees, with the ability to delete records if necessary.
   
-- **Users Page**: Lists all administrators who can access the admin side of the system, with functionalities to add, update, and delete administrator information.
+- **User Management**: This section lists all admin users with options to add, edit, or remove their details.
 
-### Client-Side
+### Employee Interface
 
-- **Time Log Page**: Where employees log their daily time records.
+- **Time Logging**: Employees can log their daily working hours.
 
-## Features
+## Key Features
 
-- Secure login system for admin users.
-- CRUD operations for employees and administrators.
-- Track and store daily time logs of employees.
-- Responsive design using Bootstrap.
+- Secure login mechanism for admin users.
+- CRUD (Create, Read, Update, Delete) operations for managing employees and admin users.
+- Automatic tracking and storage of daily attendance records.
+- Mobile-responsive design using Bootstrap.
 
-## How to Run the Project
+## Installation Guide
 
-1. Download the source code and extract the zip file.
-2. Set up a local web server capable of running PHP scripts on your computer (I use XAMPP). Copy or extract the source code to the `htdocs` folder located in the XAMPP directory.
-3. Open your database web server and create a new database named `attendance`.
-4. Import the `attendance.sql` file located in the database folder of the extracted source code.
-5. Ensure the source code is accessible by your web server.
-6. Open a web browser (Chrome) and browse the application at `http://localhost/EARS/`.
+1. Download and extract the project source code.
+2. Install a local web server that supports PHP (I used XAMPP). Place the source code in the `htdocs` folder of your XAMPP installation.
+3. Create a new database named `attendance` in your database server.
+4. Import the `attendance.sql` file from the database folder into the newly created `attendance` database.
+5. Ensure that the source code is accessible through your web server.
+6. Open Chrome and navigate to `http://localhost/EARS/` to access the application.
 
-### Admin Default Access
+### Admin Login Details
 
 - **Username**: admin
 - **Password**: admin123
 
-To access the administrator side of the application, add `/admin/index.php` to your URL: http://localhost/EARS/admin/index.php
-
+To access the admin panel, append `/admin/index.php` to the base URL: http://localhost/EARS/admin/index.php
