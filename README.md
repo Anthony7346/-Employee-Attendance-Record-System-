@@ -1,6 +1,6 @@
 # Employee Attendance Record System
 
-The Employee Attendance Record System is a simple project developed using PHP, HTML5, CSS, and JavaScript (jQuery/Ajax). This project can be a great starting point if you are developing an HRIS or a Payroll System. The project provides an insight into how a Biometrics System works and utilizes the Bootstrap framework for design.
+The Employee Attendance Record System is a simple project developed using PHP, HTML5, CSS, and JavaScript (jQuery/Ajax). This project was developed as part of my practicum to demonstrate my skills in web development.
 
 ## About the Project
 
